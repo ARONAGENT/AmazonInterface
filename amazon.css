@@ -1,0 +1,245 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration-line: none;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  
+}
+.navbar{
+    color: white;
+    display:flex ;
+    align-items: center;
+    height: 60px;
+  background-color: #131921;
+  justify-content:space-evenly;
+ align-items: center; 
+}
+.navbar-logo{
+    display: flex;
+    height: 58px;
+    width:fit-content;
+}
+.border{
+    border:2px solid transparent;
+}
+.border:hover{
+    border:2px solid white;
+}
+/* boxx2*/
+.nav-icon{
+    display:flex ;
+}
+.nav-add1{
+    margin-top: 5px;
+    margin-left: 15px;
+    color: #cccccc;
+    font-size: 0.85rem;
+}
+.nav-add2{
+    font-size: 1rem;
+    margin-left: 4px;
+}
+/* box3 */
+.nav-searchbar{
+    display:flex;
+    margin-left: 2px;
+}
+.nav-searchbar:hover{
+    border:2px solid rgb(230, 152, 7);
+}
+.nav-left{
+    background-color: rgb(199, 187, 187);
+    width: 50px;
+    height: 30px;
+    text-align: center;
+    border: none;
+    border-top-left-radius:4px ;
+    border-bottom-left-radius: 4px;
+    
+}
+.icon-search{
+    background-color: goldenrod;
+    height: 30px;
+    width: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #131921;
+    border: none;
+    border-top-right-radius:4px ;
+    border-bottom-right-radius: 4px;
+}
+.nav-middle{
+    width: 500px;
+    height: 30px;
+    justify-content: space-between;
+    border:none;
+    font-size: 1rem;
+
+}
+/*box4*/
+.nav-first{
+ font-size: 0.85rem;
+}
+.nav-sec{
+    font-size: 1rem;
+    font-weight: 700;
+}
+/*box6*/
+.nav-cart{
+    margin-left: 20px;
+    font-weight: 700;
+}
+.icon-cart{
+ height: 30px;
+ width: 40px;
+}
+/* second navbar */
+.panel{
+    height:40px;
+    color: white;
+    background-color: #232f3e;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    
+}
+.panel p{ 
+    border: 2px solid transparent;
+}
+.panel p:hover{
+    border: 2px solid white;
+}
+.all{
+    display:flex ;
+    border: 2px solid transparent;
+}
+.all:hover{
+    border: 2px solid white;
+}
+
+/** main content **/
+.background{ 
+display: flex;
+height: 715px;
+background-image: url("back.jpg");
+background-size: cover;
+justify-content: center;
+align-items: flex-end;
+justify-content: space-around;
+
+}
+.box-section{
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #878a8a;
+    padding-bottom: 1rem;
+}
+.box {
+    height: 350px;
+    width: 23%;
+    margin-left: 1.25rem;
+    margin-top: 1rem;
+    background-color: white;
+        background-size: cover;
+    border: none;
+}
+.img{
+    height: 250px;
+    background-size: cover;
+    margin:1rem;
+}
+.box h3{
+    text-align: center;
+font-weight: 700;
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.box a{
+    color: dodgerblue;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+.back{
+    background-color: white;
+    height: 400px;
+    width: 30%;
+    margin-bottom: 0.85rem;
+
+}
+
+.back a{
+    display: flex;
+    justify-content: start;
+    align-items:flex-end;
+    color: dodgerblue;
+}
+/** footer **/
+.foot1{
+    display: flex;
+    height: 50px;
+    justify-content: center;
+    align-items: center;
+ background-color: #37475A;
+ color: white;
+ font-size: 0.85rem;
+}
+.foot1:hover{
+    background-color:#7a7e83;
+}
+.footer2{
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 20px;
+    height: 250px;
+    background-color: #232F3E;
+    color:white;
+}
+.foot2 p{
+
+   font-size: 0.85rem;
+   font-weight: 700;
+   padding-bottom: 5px;
+}
+ul a{
+    display: flex;
+    color: #dddddd;
+    font-size: 0.85rem;
+    margin-top: 5px;
+}
+ul a:hover{
+    text-decoration-line: underline;
+}
+/* footer3 */
+.footer3{
+    height: 70px;
+    background-color: #232F3E;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-top: 0.01rem solid white ;
+}
+.foot-logo{
+    
+    height: 30px;
+    width: 100px;
+    background-image: url("logo-.png"); 
+    background-size: cover;
+    color: wheat;
+}
+.lastfooter{
+    padding-top: 2.2rem;
+    height: 100px;
+    background-color: #131b24;
+    color: #dddddd;
+    text-align: center;
+
+}
+
+.lastfoot a:hover{
+    text-decoration-line: underline;
+}
+.lastfoot1{
+    margin-top: 4px;
+}
